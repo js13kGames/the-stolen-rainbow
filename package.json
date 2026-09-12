@@ -1,0 +1,15 @@
+{
+  "name": "stolen-rainbow-13k",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node check.cjs && node combat-check.cjs && node tactical-check.cjs && node tuesday-check.cjs && node week-check.cjs && node palette-check.cjs && node onboarding-check.cjs && node release-input-check.cjs && node release-fixes-check.cjs",
+    "preview:qa": "node preview.cjs",
+    "preview": "node review-server.cjs",
+    "balance": "node balance.cjs"
+  },
+  "devDependencies": {
+    "roadroller": "^2.1.0",
+    "terser": "^5.51.2"
+  }
+}

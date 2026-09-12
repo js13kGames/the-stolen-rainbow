@@ -1,0 +1,21 @@
+{
+  "maxMemoryMB": 150,
+  "modelRecipBaseCount": 10,
+  "numAbbreviations": 30,
+  "sparseSelectors": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    13,
+    21,
+    41,
+    42,
+    156,
+    465
+  ],
+  "precision": 14,
+  "recipLearningRate": 1333
+}
